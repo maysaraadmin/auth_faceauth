@@ -1,29 +1,37 @@
 Moodle Face Authentication Plugin
+
 This Moodle plugin integrates a facial recognition authentication system into your Moodle login process. The plugin uses webcam capture to verify users' identities before granting access to the Moodle platform. It provides an additional layer of security by enabling users to authenticate using their faces.
 
 Features
+
 Webcam Integration: Allows users to authenticate using their webcam.
 Face Capture: Users can capture a snapshot of their face for authentication.
 Retry Option: If the first attempt fails, users can retry the capture.
 Message Display: Provides success or error messages for user feedback.
 Loader: Displays a loading message during the authentication process.
 Responsive Design: Optimized for both desktop and mobile views.
+
 Installation
+
 1. Clone or Download the Plugin
 Clone or download the plugin to your Moodle instance's auth directory. You can do this by running the following command in your Moodle root directory:
 
 bash
 Copy code
 git clone https://github.com/yourusername/moodle-auth-faceauth.git auth/faceauth
+
 2. Install the Plugin
 Navigate to your Moodle site's administration page.
+
 Go to Site administration > Notifications.
 Moodle will automatically detect the new plugin and prompt you to install it.
 Follow the on-screen instructions to complete the installation.
-3. Enable the Plugin
+
+4. Enable the Plugin
 After installation, go to Site administration > Plugins > Authentication > Manage authentication.
 Find the Face Authentication plugin in the list and enable it.
-4. Add the JavaScript and CSS Files
+
+6. Add the JavaScript and CSS Files
 The plugin includes the necessary JavaScript and CSS files for facial recognition functionality. These are automatically added to the page by the plugin, but you can ensure they’re included by adding the following lines in the login/index.php file:
 
 php
