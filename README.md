@@ -23,7 +23,7 @@ Clone or download the plugin to your Moodle instance's auth directory. You can d
 
 bash
 Copy code
-git clone https://github.com/maysaraadmin/moodle-auth-faceauth.git auth/faceauth
+git clone https://github.com/maysaraadmin/auth_faceauth.git
 
 2. Install the Plugin
 Navigate to your Moodle site's administration page.
